@@ -1,0 +1,23 @@
+{
+  "name": "hello-parcel",
+  "version": "1.0.0",
+  "description": "project to demonstrate parcel usage",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel ",
+    "build": "parcel build ",
+    "api": "json-server --watch ./src/json.server.json", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello-parcel"
+  ],
+  "author": "mcarvalho",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.6"
+  }
+}
